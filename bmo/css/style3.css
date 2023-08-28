@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(270deg,#0f110e,#313536);
+}
+
+header{
+    width: 100%;
+    height: 70px;
+
+    background:linear-gradient(#05090a,#202d33);
+    
+    padding: 10px;
+    
+    box-shadow: 0px 2px 20px black;
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    align-items: center;
+
+    justify-content: space-between;
+}
+ul#Menu{
+    list-style: none;
+
+    display: flex;
+    z-index: 2;
+}
+ul#Menu li a{
+    color: white;
+
+    display: flex;
+    text-decoration: none;
+
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+ul#Menu li a:hover{
+    color: white;
+
+    text-decoration: none;
+    background-color:rgb(75, 75, 75);
+
+}
+div#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+
+}
+h3#Iconlogo{
+    display: flex;
+    color: #4daa59;
+    border-radius: 20px 20px 0px 20px;
+    border: 5px solid #3db99d;
+    height: 0px;
+    margin-bottom: 18px;
+}
+h1{
+    display: flex;
+    text-align: start;
+    color: #b9c3c7;
+}
+h3#Note{
+    color: #b9c3c7;
+    text-align:start;
+}
+p{
+    color: #b9c3c7;
+    width: 60%;
+    text-align:start;
+}
+ul#tags{
+    list-style: none;
+
+    display: flex;
+}
+ul#tags li a{
+    color: white;
+
+    display: block;
+    text-decoration: none;
+
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: solid 2px rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+section#Container{
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+div#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    background-color: #21292d;
+    gap: 10px;
+    border-radius: 20px;
+}
+img{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    z-index: 1;
+}
